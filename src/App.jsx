@@ -5,6 +5,8 @@ import Logos from './components/Logos';
 import FutureSection from './components/FutureSection';
 import PlatformFeatures from './components/PlatformFeatures';
 import Testimonials from './components/Testimonials';
+import CTA from './components/CTA';
+import Footer from './components/Footer';
 
 const App = () => {
     return (
@@ -15,6 +17,8 @@ const App = () => {
             <FutureSection />
             <PlatformFeatures />
             <Testimonials />
+            <CTA />
+            <Footer />
         </>
     )
 }
