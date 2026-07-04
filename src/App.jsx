@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Logos from './components/Logos';
 import FutureSection from './components/FutureSection';
+import PlatformFeatures from './components/PlatformFeatures';
 
 const App = () => {
     return (
@@ -11,6 +12,7 @@ const App = () => {
             <Hero />
             <Logos />
             <FutureSection />
+            <PlatformFeatures />
         </>
     )
 }
